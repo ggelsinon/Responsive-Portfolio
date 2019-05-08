@@ -139,8 +139,8 @@ h3, h2 {
 .work {
   position: relative;
   float: left;
-  width: 274px;
-  margin: 20px 0 25px;
+  /* width: 274px; */
+  /* margin: 20px 0 25px; */
   overflow: auto;
 }
 
@@ -155,8 +155,8 @@ h3, h2 {
 }
 
 .work h3 {
-  position: absolute;
-  bottom: 20px;
+  position: relative;
+  bottom: 75px;
   width: 100%;
   padding: 15px;
   margin-bottom: 0;
@@ -214,4 +214,24 @@ input[type=submit] {
   cursor: pointer;
   background: #4aaaa5;
   border: 0 none;
+}
+
+/* small devices */
+@media only screen and (max-width: 640px) and (min-width: 640px){
+  img {
+    width: 100%;
+  }
+}
+/* medium devices */
+@media only screen and () and (){
+  img {
+
+  }
+}
+
+/* large devices */
+@media only screen and () and (){
+  img {
+
+  }
 }
